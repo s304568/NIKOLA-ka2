@@ -1,0 +1,4 @@
+.Nav_Bar_Div {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { BiscuitClicker_PATH, INDEX_PATH } from "../constants/paths";
+import { BiscuitClicker_PATH, INDEX_PATH } from "../Constants/paths";
+import "../index.css"
 
 function TempetureCheeker() {
   useEffect(() => {
@@ -9,15 +10,7 @@ function TempetureCheeker() {
 
   return (
     <>
-      <h1>This is the Home Page.</h1>
-      <p>
-        Here is a link to the
-        <Link to={INDEX_PATH}>Home Page.</Link>
-      </p>
-      <p>
-        Here is a link to the
-        <Link to={BiscuitClicker_PATH}>Biscuit Clicker Page.</Link>
-      </p>
+      <h1>This is the Tempeture Cheeker Page</h1>
     </>
   );
 }

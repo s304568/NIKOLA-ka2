@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { INDEX_PATH } from "../constants/paths";
+import { INDEX_PATH } from "../Constants/paths";
 
 function NotFoundPage() {
   useEffect(() => {

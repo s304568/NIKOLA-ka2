@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+.ParagraphContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 120px;
+}
+p {
+  font-size: 16px;
+}
+
+.cookie {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
